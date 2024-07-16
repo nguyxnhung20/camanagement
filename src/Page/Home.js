@@ -6,6 +6,7 @@ function Home(props) {
     <div>
       <h1 className="header">Quản Lý Ô Tô</h1>
       <Menu />
+      <br />
       <Outlet />
     </div>
   );
