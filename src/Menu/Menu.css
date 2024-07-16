@@ -1,0 +1,27 @@
+.menu-nav {
+  background-color: #2c7a2c;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.menu-left,
+.menu-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all 0.3s;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.menu-item:hover {
+  background-color: #3a9d3a;
+  border-radius: 20px;
+}

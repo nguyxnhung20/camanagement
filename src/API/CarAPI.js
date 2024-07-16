@@ -4,8 +4,8 @@ const getListCarAPI = () => {
   return api("GET", "car", null);
 };
 
-const createNewCarAPI = (carNew) => {
-  return api("POST", "car", carNew);
+const createNewCarAPI = (carData) => {
+  return api("POST", "car", carData);
 };
 
 const deleteCarAPI = (id) => {
@@ -13,9 +13,9 @@ const deleteCarAPI = (id) => {
   return api("DELETE", url);
 };
 
-const updateCarAPI = (carUpdate) => {
-  const url = `car/${carUpdate.id}`;
-  return api("PUT", url, carUpdate);
+const updateCarAPI = (car) => {
+  const url = `car/${car.id}`;
+  return api("PUT", url, {});
 };
 
 const getCarAPI = (id) => {

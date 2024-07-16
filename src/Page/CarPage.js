@@ -1,7 +1,7 @@
 import React from "react";
 import CarContainer from "../Container/AccountContainer";
 
-function AccountPage(props) {
+function CarPage(props) {
   return (
     <div>
       <CarContainer />
@@ -9,4 +9,4 @@ function AccountPage(props) {
   );
 }
 
-export default AccountPage;
+export default CarPage;

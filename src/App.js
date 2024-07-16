@@ -1,12 +1,11 @@
 import "./App.css";
-import AccountPage from "./Page/AccountPage";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="header">Quản Lý Ô Tô</h1>
-      <br />
-      <AccountPage />
+      <RouterProvider router={router} />
     </div>
   );
 }
