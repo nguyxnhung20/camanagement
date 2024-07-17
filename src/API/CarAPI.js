@@ -15,7 +15,7 @@ const deleteCarAPI = (id) => {
 
 const updateCarAPI = (car) => {
   const url = `car/${car.id}`;
-  return api("PUT", url, {});
+  return api("PUT", url, car);
 };
 
 const getCarAPI = (id) => {

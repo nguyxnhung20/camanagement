@@ -52,7 +52,7 @@ const ResultForm = ({ listCar, onDeleteCar, onEditCar }) => {
             Sửa
           </Button>
           <Popconfirm
-            title="Are you sure you want to delete this car?"
+            title="Xoá Car"
             onConfirm={() => onDeleteCar(record.id)}
             okText="Yes"
             cancelText="No"
